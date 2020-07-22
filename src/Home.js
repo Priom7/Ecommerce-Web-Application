@@ -14,14 +14,14 @@ function Home() {
       ></img>{" "}
       <div className='home__row'>
         <Product
-          id='1234'
+          id='1'
           title='The HeadPhone'
           price={100}
           rating={5}
           image='https://www.awesomedynamic.com/wp-content/uploads/2018/02/awesome-dynamic-amazon-product-photography-camera.png'
         ></Product>
         <Product
-          id='1234'
+          id='2'
           title='The HeadPhone'
           price={100}
           rating={3}
@@ -30,21 +30,21 @@ function Home() {
       </div>
       <div className='home__row'>
         <Product
-          id='1234'
+          id='3'
           title='The HeadPhone'
           price={754100}
           rating={3}
           image='https://www.awesomedynamic.com/wp-content/uploads/2018/02/awesome-dynamic-amazon-product-photography-camera.png'
         ></Product>
         <Product
-          id='1234'
+          id='4'
           title='The HeadPhone'
           price={700}
           rating={1}
           image='https://previews.123rf.com/images/rioillustrator/rioillustrator1204/rioillustrator120400010/13097676-abstract-musical-background-with-sound-box-vector-illustration.jpg'
         ></Product>
         <Product
-          id='1234'
+          id='5'
           title='The HeadPhone'
           price={1000}
           rating={2}
@@ -53,7 +53,7 @@ function Home() {
       </div>
       <div className='home__row'>
         <Product
-          id='1234'
+          id='6'
           title='The HeadPhone'
           price={340}
           rating={5}
