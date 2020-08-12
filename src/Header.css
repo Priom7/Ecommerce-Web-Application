@@ -1,9 +1,9 @@
 .header {
-  background-color: #131921;
+  background-color: #200094;
   display: flex;
   align-items: center;
   position: sticky;
-
+  flex-wrap: wrap;
   top: 0;
   z-index: 100;
 }
@@ -60,6 +60,6 @@
 }
 .header__searchIcon {
   padding: 5px;
-  background-color: #cd9042;
+  background-color: #6042cd;
   height: 22px !important;
 }

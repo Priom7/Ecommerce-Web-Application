@@ -4,6 +4,7 @@ import { getBasketTotal } from "./reducer";
 import "./Checkout.css";
 import CheckoutProduct from "./CheckoutProduct";
 import Subtotal from "./Subtotal";
+import checkout from "./images/checkout_banner.jpg";
 
 function Checkout() {
   const [{ basket }] = useStateValue();
@@ -12,7 +13,7 @@ function Checkout() {
       <div className='checkout__left'>
         <img
           className='checkout_ad'
-          src='https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668.jpg'
+          src={checkout}
           alt=''
         ></img>
         {basket?.length == 0 ? (
@@ -41,7 +42,6 @@ function Checkout() {
           </div>
         )}
       </div>
-
       {basket.length > 0 && (
         <div className='checkout__right'>
           <Subtotal></Subtotal>

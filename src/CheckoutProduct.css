@@ -1,5 +1,6 @@
 .checkoutProduct {
   display: flex;
+
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -24,9 +25,9 @@
 }
 
 .checkoutProduct__info > button {
-  background: #f0c14b;
+  background: #5545ec;
   border: 1px solid;
   margin-top: 10px;
-  border-color: #a88734 #9c7e31 #846a29;
-  color: #111;
+  border-color: #224cd6 #0044ff #0c0e8a;
+  color: wheat;
 }

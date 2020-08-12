@@ -1,6 +1,6 @@
 import React from "react";
 
-import banner from "./images/amazon prime.jpg";
+import banner from "./images/pixabayimg.jpg";
 import "./Home.css";
 import Product from "./Product";
 
@@ -15,14 +15,14 @@ function Home() {
       <div className='home__row'>
         <Product
           id='1'
-          title='The HeadPhone'
+          title='The Camera'
           price={100}
           rating={5}
           image='https://www.awesomedynamic.com/wp-content/uploads/2018/02/awesome-dynamic-amazon-product-photography-camera.png'
         ></Product>
         <Product
           id='2'
-          title='The HeadPhone'
+          title='The Laptop'
           price={100}
           rating={3}
           image='https://www.gaminglaptop.com.bd/wp-content/uploads/2019/09/asus_rog_strix_g_g53_OqLKd.jpg'
@@ -31,32 +31,23 @@ function Home() {
       <div className='home__row'>
         <Product
           id='3'
-          title='The HeadPhone'
+          title='The Second Camera'
           price={754100}
           rating={3}
           image='https://www.awesomedynamic.com/wp-content/uploads/2018/02/awesome-dynamic-amazon-product-photography-camera.png'
         ></Product>
         <Product
           id='4'
-          title='The HeadPhone'
+          title='The Sound System'
           price={700}
           rating={1}
           image='https://previews.123rf.com/images/rioillustrator/rioillustrator1204/rioillustrator120400010/13097676-abstract-musical-background-with-sound-box-vector-illustration.jpg'
         ></Product>
         <Product
           id='5'
-          title='The HeadPhone'
+          title='The Second Laptop'
           price={1000}
           rating={2}
-          image='https://www.gaminglaptop.com.bd/wp-content/uploads/2019/09/asus_rog_strix_g_g53_OqLKd.jpg'
-        ></Product>
-      </div>
-      <div className='home__row'>
-        <Product
-          id='6'
-          title='The HeadPhone'
-          price={340}
-          rating={5}
           image='https://www.gaminglaptop.com.bd/wp-content/uploads/2019/09/asus_rog_strix_g_g53_OqLKd.jpg'
         ></Product>
       </div>

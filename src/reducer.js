@@ -5,7 +5,7 @@ export const initialState = {
   basket: [
     {
       id: "1234",
-      title: "The HeadPhone",
+      title: "The Camera",
       price: 754100,
       rating: 3,
       image:
@@ -13,7 +13,7 @@ export const initialState = {
     },
     {
       id: "3234",
-      title: "The HeadPhone",
+      title: "The Second Camera",
       price: 754100,
       rating: 3,
       image:
