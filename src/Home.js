@@ -3,6 +3,7 @@ import React from "react";
 import banner from "./images/pixabayimg.jpg";
 import "./Home.css";
 import Product from "./Product";
+import Brands from "./components/Brands";
 
 function Home() {
   return (
@@ -50,6 +51,36 @@ function Home() {
           rating={2}
           image='https://www.gaminglaptop.com.bd/wp-content/uploads/2019/09/asus_rog_strix_g_g53_OqLKd.jpg'
         ></Product>
+      </div>
+      <div>
+        <Brands
+          id='5'
+          title='The Second Laptop'
+          price={1000}
+          rating={2}
+          image='https://www.gaminglaptop.com.bd/wp-content/uploads/2019/09/asus_rog_strix_g_g53_OqLKd.jpg'
+        ></Brands>
+        <Brands
+          id='5'
+          title='The Second Laptop'
+          price={1000}
+          rating={2}
+          image='https://www.gaminglaptop.com.bd/wp-content/uploads/2019/09/asus_rog_strix_g_g53_OqLKd.jpg'
+        ></Brands>
+        <Brands
+          id='5'
+          title='The Second Laptop'
+          price={1000}
+          rating={2}
+          image='https://www.gaminglaptop.com.bd/wp-content/uploads/2019/09/asus_rog_strix_g_g53_OqLKd.jpg'
+        ></Brands>
+        <Brands
+          id='5'
+          title='The Second Laptop'
+          price={1000}
+          rating={2}
+          image='https://www.gaminglaptop.com.bd/wp-content/uploads/2019/09/asus_rog_strix_g_g53_OqLKd.jpg'
+        ></Brands>
       </div>
     </div>
   );

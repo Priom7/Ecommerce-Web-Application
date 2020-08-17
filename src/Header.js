@@ -49,7 +49,7 @@ function Header() {
               Your
             </span>
             <span className='header__optionLineTwo'>
-              Prime
+              Account
             </span>
           </div>
         </Link>
